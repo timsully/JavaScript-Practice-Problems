@@ -1,5 +1,5 @@
 # JavaScript-Practice-Problems
-Repo containing problems I tackle while learning JavaScript.
+Repo containing problems I tackle while learning JavaScript. Also, a list of definitions on JavaScript syntax to refer back to as I build my arsenal of code.
 
 ###### What is a subtype?
 
