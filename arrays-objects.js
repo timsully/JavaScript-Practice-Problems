@@ -6,18 +6,24 @@ const studentInfo = {
     hometown: 'Anchorage',
     age: 29,
     knownsJS: false,
-}
-
-// calling the studentInfo variable which has an object
-// assigned to it, in the line below we are using dot 
-// notation to create another key that has a function
-studentInfo.sayHi = function() {
-    // using console log to concatenate a string with
-    // the value from the key name that is from the 
-    // object assigned to the studentInfo variable
-    console.log('Hello, I am ' + studentInfo.name);
+    sayHi: function() {
+        console.log('Hello! I am ' + this.name);
+    }
 };
 
 // calling the function which will output the code
 // within the code block which is a console.log, sweg.
 studentInfo.sayHi();
+
+const numbers = [3, -2, 33, -10];
+
+for (let key in studentInfo) {
+    console.log('key: ', key);
+    console.log('value: ', studentInfo[key]);
+};
+
+function testFn() {
+    console.log(arguments);
+}
+
+testFn(true, 'Shovel', 17);
