@@ -1,5 +1,5 @@
 // Created a variable called studentInfo and assigned it
-// equal to and object with five key pair values
+// equal to an object with five key pair values
 const studentInfo = {
     name: 'Simon Ableton',
     currentLocation: 'TuckLuck',
