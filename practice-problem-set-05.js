@@ -17,8 +17,17 @@ const numbers = [1, 5, 3, 0, -2];
 numbers.forEach(logNegative);
 
 
-let swegArray = [5, 10, 15, 20];
+// let swegArray = [5, 10, 15, 20];
 
-const mapSwegBreh = swegArray.map(x => x * 2);
+// const mapSwegBreh = swegArray.map(x => x * 2);
 
-console.log(mapSwegBreh);
+// console.log(mapSwegBreh);
+
+// callback
+// 1 parameter: a single element
+// return mutated value
+function roundValue(x) {
+    return Math.round(x);
+};
+
+let swegArray = [5.2, 10.3, 15.1, 20.6];
