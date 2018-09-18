@@ -15,3 +15,10 @@ const numbers = [1, 5, 3, 0, -2];
 // function as its argument to log the values being iterated 
 // through in the numbers array as negative values
 numbers.forEach(logNegative);
+
+
+let swegArray = [5, 10, 15, 20];
+
+const mapSwegBreh = swegArray.map(x => x * 2);
+
+console.log(mapSwegBreh);
