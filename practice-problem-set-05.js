@@ -31,3 +31,21 @@ function roundValue(x) {
 };
 
 let swegArray = [5.2, 10.3, 15.1, 20.6];
+
+
+// findLongest function has two parameters
+function findLongest(str1, str2) {
+    const firstLonger = str1.length >= str2.length;
+
+    if (firstLonger) {
+        return str1;
+    } else {
+        return str2;
+    }
+}
+
+const words = [ 'cattywampus', 'snickersnee', 'lollygag', 'pandiculation', 'ratoon' ];
+const phrases = [ 'A fish rots from the head down', 'A rolling stone gathers no moss', 'A rose is a rose is a rose'];
+
+const longestWord = words.reduce(findLongest);
+const longestPhrase = phrases.reduce(findLongest);
